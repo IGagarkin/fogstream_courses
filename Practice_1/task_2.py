@@ -12,5 +12,5 @@ T = int(input("time \"T\": "))
 d=(V*T)%109
 
 
-print ("point: "+str(d))
+print (d)
 

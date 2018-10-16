@@ -18,7 +18,7 @@ ANG_S=360/(3600*12)
 
 SUM_ANG=(H*ANG_H)+(M*ANG_M)+(S*ANG_S)
 
-print ("Rounded angle: "+str(round(SUM_ANG)))
+print (round(SUM_ANG))
 
 
 

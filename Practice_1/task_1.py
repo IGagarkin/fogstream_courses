@@ -10,6 +10,6 @@ new_first_number = (n//60)%24
 new_second_number = n%60
 
 
-print("hours: "+str(new_first_number))
-print("minutes: "+str(new_second_number))
+print(new_first_number)
+print(new_second_number)
 
