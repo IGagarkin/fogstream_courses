@@ -1,16 +1,15 @@
 """ 
-Тут условие задачи
+Дано число n. С начала суток прошло n минут. Определите, сколько часов и минут будут показывать электронные 
+часы в этот момент. Программа должна вывести два числа: количество часов (от 0 до 23) и количество минут 
+(от 0 до 59). Учтите, что число n может быть больше, чем количество минут в сутках.
 """
 
-first_number = int(input())
-first_second = int(input())
+n = int(input("input number \"n\": "))
 
-# Тут будет какой-то код
-# Возможно и тут
-# ...
-# А может даже и тут
+new_first_number = (n//60)%24
+new_second_number = n%60
 
 
-print(new_first_number)
-print(new_second_number)
+print("hours: "+str(new_first_number))
+print("minutes: "+str(new_second_number))
 
